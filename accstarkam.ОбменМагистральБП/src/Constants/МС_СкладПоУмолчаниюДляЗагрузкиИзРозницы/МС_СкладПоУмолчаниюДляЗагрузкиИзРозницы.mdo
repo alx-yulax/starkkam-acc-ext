@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f4d8d0f-0c3b-44a7-93a6-2d1c939f2c8d">
+  <producedTypes>
+    <managerType typeId="8f2d6a1c-0d3b-4c4e-9c83-1a2b3c4d5e6f" valueTypeId="6f5e4d3c-2b1a-4f9e-8d7c-6b5a4e3d2c1b"/>
+    <valueManagerType typeId="3c4d5e6f-1a2b-4c3d-8e9f-0a1b2c3d4e5f" valueTypeId="1b2c3d4e-5f6a-4b7c-8d9e-0f1a2b3c4d5e"/>
+    <valueKeyType typeId="4a5b6c7d-8e9f-5a6b-8c9d-0e1f2a3b4c5d" valueTypeId="5d4c3b2a-1f0e-5d4c-8b7a-6c5d4e3f2a1b"/>
+  </producedTypes>
+  <name>МС_СкладПоУмолчаниюДляЗагрузкиИзРозницы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склад по умолчанию для загрузки из Розницы</value>
+  </synonym>
+  <type/>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

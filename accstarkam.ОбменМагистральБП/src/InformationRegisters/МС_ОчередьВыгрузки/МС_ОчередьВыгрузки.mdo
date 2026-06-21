@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6ff56a8-2875-4e74-afd1-73df7a69846f">
+  <producedTypes>
+    <selectionType typeId="9afb6e14-e042-4d72-8d73-30033fbbd306" valueTypeId="4354043b-d6bc-4e51-87a8-28b7cca2a495"/>
+    <listType typeId="54091f13-07f1-4090-aa3b-e901ff36d3dc" valueTypeId="6dbfd5bf-f1f7-48f2-91a7-f2c440823d0f"/>
+    <managerType typeId="1b6d399f-8dd3-49ca-b57a-2281e3eabca3" valueTypeId="1390b7a5-fc09-4e44-b3fb-d9f547e0c813"/>
+    <recordSetType typeId="8d98e159-a198-4622-bedb-3b838bbd1e5d" valueTypeId="57c105df-649f-4f0a-a5a1-567033b2c717"/>
+    <recordKeyType typeId="27e91e00-e06e-4922-a1a8-5d3daa510d8d" valueTypeId="104fc21f-529b-41f0-aed8-c8b42dafa8eb"/>
+    <recordType typeId="7d97c1e6-d32f-4f81-901e-e23750185b87" valueTypeId="f94055fd-b375-4970-8599-49cc49a7f89a"/>
+    <recordManagerType typeId="7633459e-7bef-4694-9924-52bafd46200b" valueTypeId="41f887cf-7283-4970-843d-8cd1303940cf"/>
+  </producedTypes>
+  <name>МС_ОчередьВыгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Очередь</value>
+  </recordPresentation>
+  <dimensions uuid="2d5d70cb-b91d-4fe5-86a1-93f793411c9d">
+    <name>Ссылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

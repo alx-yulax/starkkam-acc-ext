@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f2a1dc2-68f5-499d-830c-04f0eccc2fe4">
+  <producedTypes>
+    <selectionType typeId="497a4b3d-92ff-4b7d-8f8d-96f6669d4e6c" valueTypeId="3ceab9ed-ff96-4362-ac35-962026bc2995"/>
+    <listType typeId="1dc0f840-1195-48e3-a9c8-206f01469d66" valueTypeId="49bbe9da-ab89-4e00-bfb3-3f2ead6b528c"/>
+    <managerType typeId="a1b56e3b-637a-4853-9ca9-beb2d9542986" valueTypeId="a5beec1c-1ca4-4409-a5c4-114bf54077c8"/>
+    <recordSetType typeId="66f10bd9-fe44-4bbd-877f-13fed3d5faac" valueTypeId="6eceab43-fb8b-4ef9-9fe9-85810b0f7b73"/>
+    <recordKeyType typeId="08856979-fa97-4bc1-a50a-f314c3a805aa" valueTypeId="a9843f32-4bb1-4d9e-9171-eeed6f3f9d08"/>
+    <recordType typeId="ea67fd64-7efe-4b1d-ba6d-022405ae87f3" valueTypeId="8a54cbae-3d3b-4eae-a953-32591de448bf"/>
+    <recordManagerType typeId="3ac849b5-3e49-4af2-bc93-9ef5109de084" valueTypeId="147222d0-35c0-4d3b-b685-9216a614f883"/>
+  </producedTypes>
+  <name>МС_НаименованиеНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наименование номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.МС_НаименованиеНоменклатуры.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Наименование номенклатуры</value>
+  </recordPresentation>
+  <resources uuid="f71379bc-3bad-4331-8c79-c0ef894fbf77">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="2759c91b-8c6d-45b2-a6cd-d11b15fc53b9">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="7f47c93e-bd86-464c-b68a-23b9147872de">
+    <name>Ссылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="da235091-0e7d-43de-afde-fb0be94ef0f3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b6fb03cf-c456-4ef3-abdd-9626886974fd" extendedConfigurationObject="bb44a57a-ce46-4995-a057-b7b6c4ccc2e5">
+  <producedTypes>
+    <refType typeId="c7bf43f6-7a99-4575-b07d-352dd1ba7733" valueTypeId="f908db10-3cdf-4eb9-b918-27555a1b7566"/>
+    <listType typeId="96861c3e-85fd-44e9-a424-aaa25581bcf6" valueTypeId="1c849dcd-6142-4450-b457-25a9c15c39da"/>
+    <managerType typeId="6ccf7b1f-8ab1-479f-b047-7dd50a17ee13" valueTypeId="4c61f6b3-9be7-48f3-bc45-9e52d951bcbd"/>
+  </producedTypes>
+  <name>СтавкиНДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="4cf556ff-397a-4244-8b77-22534af7fa4f" extendedConfigurationObject="f0fa334c-59dc-4b6c-b81c-1bbad6b45917">
+    <name>НДС22</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="cadfc8ef-ffa0-494b-9301-70d6b3fa795d" extendedConfigurationObject="ca0cf7c1-ce04-4fe1-9fe5-0f0e1099a0ff">
+    <name>НДС18</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="2e5b623a-2b24-4a84-9a17-bfabf79529bb" extendedConfigurationObject="76f269ef-8d75-4355-955b-0d83af4b6513">
+    <name>НДС18_118</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="ef7ee305-5cd0-47e6-bb00-f02b3f2b15b1" extendedConfigurationObject="2567b477-58ec-4a0b-9a24-fbb80983c5a7">
+    <name>НДС10</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="a2b425ee-6ba7-428a-b715-3bf685d7a396" extendedConfigurationObject="be1ca97f-f42c-40f1-a0f8-786f02ce1174">
+    <name>НДС10_110</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="95c1426f-ad2a-4006-8ac3-d19416c36512" extendedConfigurationObject="92f1bd28-d028-4c77-8678-600da9b8a9a5">
+    <name>НДС0</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="370f0256-7219-4eee-98cb-4e606ce17270" extendedConfigurationObject="df613792-69af-43d1-ad77-47226fbc178c">
+    <name>БезНДС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="2acdaeff-9008-4da0-bc0a-32920353772c" extendedConfigurationObject="45974ccb-45ed-4235-b8ff-abc37bb5c45b">
+    <name>НДС20</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="b8a5418c-d7c6-4931-86d1-f9179fe599ef" extendedConfigurationObject="6cf8ca3a-63dd-4385-ba30-38011e461f36">
+    <name>НДС20_120</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="efe32c46-bd36-4b86-9c71-8b63dc86c3fd" extendedConfigurationObject="b9e148ea-d7b7-4295-8b0a-52c32dba3de9">
+    <name>НДС5</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="0cb6e660-d0d4-44b7-88dd-85e14dd7f514" extendedConfigurationObject="fd01d596-2c9d-4ea0-9473-d151dc6d0656">
+    <name>НДС5_105</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="f9f1e292-bf01-493c-8baa-712791ccdee0" extendedConfigurationObject="afbae5cd-5d55-4639-b461-c68d385ec5fb">
+    <name>НДС7</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="343d37b4-f3d0-4ca5-a15b-9899e0a5e459" extendedConfigurationObject="89643718-2e98-4667-bb58-9476b4a8bfab">
+    <name>НДС7_107</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="14b3de9f-4432-4fc5-aecf-4ec442a2ff5c" extendedConfigurationObject="f0456ccc-4e50-4999-b74b-8ac9c206b7f4">
+    <name>НДС22_122</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

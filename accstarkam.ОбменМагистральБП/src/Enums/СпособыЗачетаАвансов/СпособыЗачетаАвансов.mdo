@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="40e3fb91-a248-4a14-9eee-3d7d14aeaaa0" extendedConfigurationObject="4bd467ec-bda2-4892-88fe-81b6bd2acdf3">
+  <producedTypes>
+    <refType typeId="7649c20c-4b07-4e13-8625-a3d71c3b6d11" valueTypeId="dd6f0c66-760f-479d-9c51-f43ea9d67fd1"/>
+    <listType typeId="a4b3d640-8448-4a53-9527-cbe53cfe3986" valueTypeId="006dedac-0fdd-4647-8e66-f9e1296adb03"/>
+    <managerType typeId="f394dbbb-941e-47a5-8a9d-e9672db8b750" valueTypeId="d7e459b6-9cb8-4c0a-8318-acc4eb1cff43"/>
+  </producedTypes>
+  <name>СпособыЗачетаАвансов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="33a27c1e-537e-44c4-bf54-594834df5e7c" extendedConfigurationObject="e23f9964-6487-4a73-af8e-d5ea01b5ffb9">
+    <name>НеЗачитывать</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

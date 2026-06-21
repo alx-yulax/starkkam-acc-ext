@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="752ad20a-6c59-4c47-bec6-824c87d86404">
+  <producedTypes>
+    <selectionType typeId="195d1b41-e185-48b2-b4f8-b8807cb7dec7" valueTypeId="c7789506-5a8a-424e-8809-929478ab6c47"/>
+    <listType typeId="1f2ed0b9-3a20-4314-a433-76946e2bc809" valueTypeId="ba9ae243-8ab7-44df-8a9c-786239640514"/>
+    <managerType typeId="fad5f437-c98c-4e39-9260-c9e67cd138ce" valueTypeId="e9757bf1-3cd4-4418-a074-03bed77f107a"/>
+    <recordSetType typeId="84b3b656-572c-4a12-89d3-5cf888e5df36" valueTypeId="2f69ceee-8644-4426-8852-11d2fd22aa1d"/>
+    <recordKeyType typeId="8550435d-1dc5-48b8-ac3f-187331162279" valueTypeId="78b3b308-2ae4-4985-ba6c-38b7a496844f"/>
+    <recordType typeId="8a20588b-59e8-4293-a8c9-48131e0e92b2" valueTypeId="543fea2c-3c01-427b-940f-bbba34a4c839"/>
+    <recordManagerType typeId="2fecad52-a880-47ff-aa8d-ee6c109da301" valueTypeId="16a45664-ede3-4d25-9d23-4b780c244f22"/>
+  </producedTypes>
+  <name>МС_СостояниеВыгрузкиНоменклатурыВРозницу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние выгрузки номенклатуры в розницу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="37100e8c-cffa-4ca2-9943-80ad40bf35dc">
+    <name>ОтправленноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправленное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="6de4dec7-2f33-4adb-a1bf-f876aee80a77">
+    <name>ОтправленноеНаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправленное наименование полное</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="0d54b773-428f-4d37-9200-f4e106e19959">
+    <name>Отправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e2364c65-4842-46df-a57c-d6bca520bb63">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

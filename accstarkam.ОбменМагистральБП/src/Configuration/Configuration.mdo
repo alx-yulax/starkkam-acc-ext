@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="425ffd49-3177-40dc-bd8e-cd1d0f04abaf">
+  <name>ОбменМагистральБП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен Магистраль -> БП</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="7ca62485-9d4d-4b4f-93c2-5fbb24cfda1b"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c99773b3-7bb4-4187-9533-a38da7ea7b3c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="c4ab441b-eb80-47b5-84ce-7f4144596afc"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="08635fab-3138-40e7-ab4e-eb5a0fb00c90"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="268c4705-6e62-454e-aed9-aae989b4e9ce"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="eebadbe5-df96-4db4-ab33-bd77a5df8bae"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="6d60d03c-1cc0-4e0f-a711-8ba33ab731b4"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>МС_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.МС_ОсновнаяРоль</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <languages uuid="8c9574f5-8a1c-43b8-927a-e2edeeeae58c">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <roles>Role.МС_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.МС_ОбщийМодуль1ВызовСервера</commonModules>
+  <httpServices>HTTPService.МС_HTTPЗагрузкаИзРозницы</httpServices>
+  <eventSubscriptions>EventSubscription.МС_ПриЗаписиНоменклатуры</eventSubscriptions>
+  <constants>Constant.МС_СкладПоУмолчаниюДляЗагрузкиИзРозницы</constants>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <documents>Document.ПоступлениеТоваровУслуг</documents>
+  <enums>Enum.СтавкиНДС</enums>
+  <enums>Enum.СпособыЗачетаАвансов</enums>
+  <informationRegisters>InformationRegister.МС_СоответствиеОбъектовДляОбмена</informationRegisters>
+  <informationRegisters>InformationRegister.МС_СостояниеВыгрузкиНоменклатурыВРозницу</informationRegisters>
+  <informationRegisters>InformationRegister.МС_НаименованиеНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.МС_ОчередьВыгрузки</informationRegisters>
+</mdclass:Configuration>

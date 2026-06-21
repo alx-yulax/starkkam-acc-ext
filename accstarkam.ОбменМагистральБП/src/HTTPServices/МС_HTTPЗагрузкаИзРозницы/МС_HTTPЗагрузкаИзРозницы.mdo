@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eba6b384-0c4f-4ce5-a6e6-0a43f78dbe3b">
+  <name>МС_HTTPЗагрузкаИзРозницы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка поступлений из Розницы (HTTP)</value>
+  </synonym>
+  <rootURL>yulax</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="ea27e3c2-b11f-41ce-8ad3-4f097b7a3f6c">
+    <name>ПоступлениеТоваровУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление товаров и услуг</value>
+    </synonym>
+    <template>/incoming_invoice</template>
+    <methods uuid="044be516-6f4d-4f89-8bc3-a3d4255b0eb8">
+      <name>ЗагрузитьПоступлениеТоваровУслуг</name>
+      <synonym>
+        <key>ru</key>
+        <value>Загрузить поступление товаров и услуг</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПриемПоступленияТоваровУслугИзРозницы</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="a1f3ada0-991f-4479-8ed7-9bf6d376dea6">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <template>/incoming_nomenklatura</template>
+    <methods uuid="a95e7d1b-8834-430a-986a-be3c0081a7d7">
+      <name>ЗагрузитьНоменклатуру</name>
+      <synonym>
+        <key>ru</key>
+        <value>Загрузить номенклатуру</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>НоменклатураЗагрузитьНоменклатуру</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

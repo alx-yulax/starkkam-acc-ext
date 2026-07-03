@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e02dfaf-8d02-4f85-8a7a-b7996264d994">
+  <producedTypes>
+    <selectionType typeId="e648690e-1513-4afd-87c0-cf2353fdf0d4" valueTypeId="b416eb6c-0424-4068-85ae-8f9309923bdd"/>
+    <listType typeId="6370578b-490e-472b-8b76-fcbd75efeba1" valueTypeId="0f6ade63-eaa0-483e-b8cd-62afcc9b4510"/>
+    <managerType typeId="c8ff57c6-c42c-45a2-9fc5-f7d5015ceefb" valueTypeId="1ad03d80-fe47-429b-8e09-5713a449406c"/>
+    <recordSetType typeId="23e9e978-25d3-4c4f-882a-0052de6a0998" valueTypeId="102b761c-a9f5-438b-9cd9-c081832118ee"/>
+    <recordKeyType typeId="50800899-6240-44b0-8ab3-02d8c51dba03" valueTypeId="f2e05eec-fbf0-488d-b82b-59a92ef5404c"/>
+    <recordType typeId="2332e86e-f9fd-4a65-92f7-901173b1bbf1" valueTypeId="87112644-a8bb-4d53-84d5-890920890b2a"/>
+    <recordManagerType typeId="6751582e-a524-416a-a5b7-0c66f9028d9a" valueTypeId="a57c53f0-af8b-4366-ae4b-76667542a1a7"/>
+  </producedTypes>
+  <name>МС_ПакетыОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пакеты обмена</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8c65eced-c4a4-42e9-b7e4-6765d9a38651">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="f180252d-0665-43fe-b9a3-32e1d3ae320e">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fb320c47-b4eb-444a-ba10-7917ff2523a0">
+    <name>КодОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код ответа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5d8bc10d-4949-4282-86cf-ec9ff6248bcb">
+    <name>ТелоОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тело ответа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="de0898e0-b27c-484f-9d8a-ecc35c22f0f2">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="0c9a61e9-e4d7-4487-b77a-c1dd90287831">
+    <name>Хеш</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>44</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

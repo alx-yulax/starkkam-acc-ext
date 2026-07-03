@@ -9,5 +9,5 @@
     <types>CatalogObject.Номенклатура</types>
   </source>
   <event>OnWrite</event>
-  <handler>CommonModule.МС_ОбщийМодуль1ВызовСервера.МС_ПриЗаписиНоменклатурыПриЗаписи</handler>
+  <handler>CommonModule.МС_МодульОбменаВызовСервера.МС_ПриЗаписиНоменклатурыПриЗаписи</handler>
 </mdclass:EventSubscription>

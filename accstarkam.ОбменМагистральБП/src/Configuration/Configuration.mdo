@@ -39,17 +39,26 @@
     <languageCode>ru</languageCode>
   </languages>
   <roles>Role.МС_ОсновнаяРоль</roles>
-  <commonModules>CommonModule.МС_ОбщийМодуль1ВызовСервера</commonModules>
-  <httpServices>HTTPService.МС_HTTPЗагрузкаИзРозницы</httpServices>
+  <commonModules>CommonModule.МС_МодульОбменаВызовСервера</commonModules>
+  <httpServices>HTTPService.МС_HTTPЗагрузкаИзРозницыНеИспользовать</httpServices>
   <eventSubscriptions>EventSubscription.МС_ПриЗаписиНоменклатуры</eventSubscriptions>
   <constants>Constant.МС_СкладПоУмолчаниюДляЗагрузкиИзРозницы</constants>
+  <constants>Constant.МС_АдресНеИспользовать</constants>
+  <constants>Constant.МС_ПортНеИспользовать</constants>
+  <constants>Constant.МС_ПутьHTTPСервисаНеИспользовать</constants>
+  <constants>Constant.МС_ПользовательНеИспользовать</constants>
+  <constants>Constant.МС_ПарольНеИспользовать</constants>
+  <constants>Constant.МС_ТаймаутHTTPНеИспользовать</constants>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.ПоступлениеТоваровУслуг</documents>
   <enums>Enum.СтавкиНДС</enums>
   <enums>Enum.СпособыЗачетаАвансов</enums>
+  <dataProcessors>DataProcessor.МС_НастройкиОбменаНеИспользовать</dataProcessors>
+  <dataProcessors>DataProcessor.МС_ПараметрыПодключения</dataProcessors>
   <informationRegisters>InformationRegister.МС_СоответствиеОбъектовДляОбмена</informationRegisters>
   <informationRegisters>InformationRegister.МС_СостояниеВыгрузкиНоменклатурыВРозницу</informationRegisters>
   <informationRegisters>InformationRegister.МС_НаименованиеНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.МС_ОчередьВыгрузки</informationRegisters>
+  <informationRegisters>InformationRegister.МС_ПакетыОбмена</informationRegisters>
 </mdclass:Configuration>

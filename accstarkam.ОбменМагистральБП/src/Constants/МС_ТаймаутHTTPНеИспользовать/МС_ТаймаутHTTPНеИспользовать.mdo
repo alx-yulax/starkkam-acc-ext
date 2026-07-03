@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3579f6df-ffa5-4bf9-a145-4db9d404163d">
+  <producedTypes>
+    <managerType typeId="fd2ed1bb-3105-46aa-90a2-11f1ae973366" valueTypeId="ae5a103d-d171-4e6a-8702-866c597eb753"/>
+    <valueManagerType typeId="79eafbe5-f504-481c-8c76-d83bd3f7d66d" valueTypeId="c77753bd-5305-4218-bc36-6f810c881b61"/>
+    <valueKeyType typeId="87178e38-d7fc-434e-8d0e-3e162e36013f" valueTypeId="501b1b8a-a41c-4325-a0fc-89698908ded4"/>
+  </producedTypes>
+  <name>МС_ТаймаутHTTPНеИспользовать</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таймаут HTTP</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

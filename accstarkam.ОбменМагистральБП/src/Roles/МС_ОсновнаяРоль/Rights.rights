@@ -4,7 +4,7 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>HTTPService.МС_HTTPЗагрузкаИзРозницы.URLTemplate.ПоступлениеТоваровУслуг.Method.ЗагрузитьПоступлениеТоваровУслуг</name>
+		<name>HTTPService.МС_HTTPЗагрузкаИзРозницыНеИспользовать.URLTemplate.ПоступлениеТоваровУслуг.Method.ЗагрузитьПоступлениеТоваровУслуг</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>

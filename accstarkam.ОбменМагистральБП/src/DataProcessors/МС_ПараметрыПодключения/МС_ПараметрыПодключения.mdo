@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9512b2c2-2ab0-4af1-85e7-989bd35c0ca5">
+  <producedTypes>
+    <objectType typeId="64e90d49-e033-4c17-bbdd-9dcd5301aaea" valueTypeId="8eaf8f1f-928c-49ed-bb53-026a36d8e697"/>
+    <managerType typeId="01bdb31d-d6fb-49e6-a394-cacdfe3b465d" valueTypeId="1452d592-2ad5-43b2-bb23-5beef9dcdd10"/>
+  </producedTypes>
+  <name>МС_ПараметрыПодключения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры подключения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МС_ПараметрыПодключения.Form.Форма</defaultForm>
+  <attributes uuid="a7d95fa7-2be8-43ec-ba8e-9042468a4f45">
+    <name>АдресСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сервера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6abe0ca7-7b62-4f24-9a06-9c1d73c43116">
+    <name>ИДБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДБазы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="88d2727f-75b7-480d-bdbf-13b4d27e61ec">
+    <name>APIkey</name>
+    <synonym>
+      <key>ru</key>
+      <value>APIkey</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f299bac9-be78-4de3-bbe3-55b87dcd3441">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

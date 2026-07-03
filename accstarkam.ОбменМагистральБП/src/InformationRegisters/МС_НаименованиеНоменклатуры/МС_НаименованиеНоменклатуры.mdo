@@ -59,10 +59,10 @@
     <fillValue xsi:type="core:StringValue"/>
   </resources>
   <dimensions uuid="7f47c93e-bd86-464c-b68a-23b9147872de">
-    <name>Ссылка</name>
+    <name>Номенклатура</name>
     <synonym>
       <key>ru</key>
-      <value>Ссылка</value>
+      <value>Номенклатура</value>
     </synonym>
     <type>
       <types>CatalogRef.Номенклатура</types>

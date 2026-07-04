@@ -54,7 +54,6 @@
   <documents>Document.ПоступлениеТоваровУслуг</documents>
   <enums>Enum.СтавкиНДС</enums>
   <enums>Enum.СпособыЗачетаАвансов</enums>
-  <dataProcessors>DataProcessor.МС_НастройкиОбменаНеИспользовать</dataProcessors>
   <dataProcessors>DataProcessor.МС_ПараметрыПодключения</dataProcessors>
   <informationRegisters>InformationRegister.МС_СоответствиеОбъектовДляОбмена</informationRegisters>
   <informationRegisters>InformationRegister.МС_СостояниеВыгрузкиНоменклатурыВРозницу</informationRegisters>
